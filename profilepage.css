@@ -1,0 +1,248 @@
+BODY {
+  font-family	: arial,verdana,sans-serif;
+
+}
+BODY{
+  color		: rgb(234, 234, 234);
+  background: rgba(65,65,65,1);
+  margin:	0;
+  padding: 	0;
+}
+A {
+text-decoration	:	none;
+}
+
+A:link          { color: rgb(234, 234, 234);  }
+A:active        { color: rgb(234, 234, 234);   }
+A:visited       { color: rgb(234, 234, 234);  }
+A:hover         { color:rgb(255, 160, 0); }
+
+A.header:link          { color:#bbbbff; }
+A.header:active        { color:#d5ae83; }
+A.header:visited       { color:#bbbbff; }
+A.header:hover         { color:#ffaa27; }
+
+h3 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sp {
+        font-size: 20px Verdana, Tahoma, Helvetica, sans-serif;
+        font-weight : bold;
+        color : rgb(35, 35, 35);
+        background-color : rgb(255, 160, 0);
+}
+.ma {
+        font-size: 14px Verdana, Tahoma, Helvetica, sans-serif;
+        font-weight : bold;
+        color : rgb(0, 0, 0);
+        background-color : rgb(255, 160, 0);
+}
+.sb {
+        font-size: 14px Verdana, Tahoma, Helvetica, sans-serif;
+        font-weight : bold;
+        color : rgb(0, 0, 0);
+        background-color : rgb(255, 160, 0);
+}
+.mi {
+        font-size: 14px Verdana, Tahoma, Helvetica, sans-serif;
+        color : rgb(0, 0, 0);
+        background-color : rgb(255, 160, 0);
+}
+.co {
+        color : rgb(0, 0, 0);
+        background-color : rgb(255, 160, 0);
+}
+.me {
+	text-align : left;
+	color : rgb(0, 0, 0);
+	background-color : rgb(255, 160, 0);
+}
+	
+
+.small {
+	font-size: 9pt;
+}
+
+#linkedsubgalleries {
+	text-align: center;
+}
+#linkedsubgalleries .current {
+	font-weight: bold;
+}
+#linkedsubgalleries .other{
+	font-style: italic;
+}
+
+#slideshow td {
+	text-align: right;
+}
+
+#slideshow a {
+	font-weight: bold;
+}
+
+#localmenu a {
+	font-weight: bold;
+}
+
+
+.date,.artist {
+	font-size: 9pt;
+	font-weight: normal;
+}
+
+#imageinfo {
+	text-align: center;
+}
+
+#commentlist {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#commentlist .comment {
+	margin-bottom: 3px;
+	border-width: 0px;
+	border-style: solid;
+        border-color: #666666;
+	padding: 1px;
+}
+
+#commentlist table.comment {
+	width: 95%;
+}
+
+#commentlist .head {
+        font-size: 15px;
+}
+#commentlist .from {
+        font-weight: bold;
+        padding: 1px;
+}
+#commentlist .commands {
+        text-align: center;
+        font-size: 11px;
+}
+#commentlist .date {
+        padding: 1px;
+}
+                                                                                
+#commentlist .message_body {
+	font-size: 14px;
+        padding: 1px;
+}
+#commententry {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+.title {
+	font-size: 14pt;
+	font-weight: bold;
+	text-align: center;
+}
+.location{
+	font-size: 12pt;
+	text-align: center;
+}
+
+.caption {
+}
+
+
+.techinfo {
+	font-size: 10pt;
+}
+.camera {
+	font-style: italic;
+}
+
+.copyright {
+	font-size: 9pt;
+	font-weight: bold;
+}
+
+.lid { color : #000000; background-color : #dddddd; }
+.lil { color : #000000; background-color : #eeeeee; }
+
+.error { color: #FF0000; }
+
+.bordered {
+        border-style : solid;
+        border-color : #440808;
+        border-width: 2pt;
+}
+
+TD.thumbnail {
+  vertical-align : top;
+}
+
+.highlight {
+  background : #FFFFDD;
+  padding : 5px;
+  border : solid #CCCCAA 1px;
+}
+
+.wbh { font-size: 16pt; font-weight: bold; color: #FFFFFF; background-color: #7777BB}
+.wb { font-size: 12pt; color: rgb(234, 234, 234); background-color: rgb(35, 35, 35); font-weight: normal}
+.swbh {font-size: 12pt; font-weight: bold; color: #FFFFFF ; background-color: #7777BB}
+.datafield { font-size: 10pt; color: #000000; background-color: #4545bd}
+
+/* PBase box rounded - BEGIN */
+.pb_rcorners {
+  margin : auto;
+}
+.pb_rcorners .head, .pb_rcorners .head .c, .pb_rcorners .foot, .pb_rcorners .foot .c {
+        height: 20px;
+}
+.pb_rcorners .body .c {
+        padding: 0 1em;
+}
+.pb_rcorners .box_title {
+        margin : 0px;
+        padding : 0px 2px 0px 2px;
+}
+SPAN.box_title {
+        position : relative;
+        top : -1.5em;
+        color : #555599;                                                                                                                                                                      background : white;                                                                                                                                                                   font-weight : bold;
+        font-size : 1.3em;
+}
+
+/* HEAD */
+.pb_rcorners .head {
+	background: url(http://ap1.pbase.com/site/pblue_tl.gif) no-repeat left;
+}
+.pb_rcorners .head .c {
+	background: url(http://ap1.pbase.com/site/pblue_tr.gif) no-repeat right;
+}
+/* BODY */
+.pb_rcorners .body {
+	background: url(http://ap1.pbase.com/site/pblue_ml.gif) repeat-y 0px 0px;
+}
+.pb_rcorners .body .c {
+	background: url(http://ap1.pbase.com/site/pblue_mr.gif) repeat-y right 0px;
+}
+/* FOOT */
+.pb_rcorners .foot {
+	background: url(http://ap1.pbase.com/site/pblue_bl.gif) no-repeat left;
+}
+.pb_rcorners .foot .c {
+	background: url(http://ap1.pbase.com/site/pblue_br.gif) no-repeat right;
+}
+/* PBase box rounded - END */
+
+
+/* Inline Slideshow Begin */
+#inline_slideshow * {
+  text-align: center;
+  vertical-align: middle;
+}
+#inline_slideshow img {
+  border: none;
+}
+/* Inline Slideshow End */
+
+
